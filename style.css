@@ -1,0 +1,26 @@
+.transitionBox {
+  display: flex;
+  border: solid black 5px;
+  width: 640px;
+  height: 480px;
+  font-size: 80px;
+  text-align: center;
+  align-content: center;
+  background-color: red;
+  /* transition-property: background-color;
+  transition-property: font-size;
+  transform: rotate(360deg);
+  transition-duration: 2s; */
+
+  transition: background-color 10s rotate(360deg) ease-in 1s;
+}
+
+.transitionBox:hover {
+  background-color: orange;
+  font-size: 90px;
+  color: White;
+  font-weight: bold;
+  width:fit-content;
+  transition-duration: 2s;;
+  transform:rotate(360deg);
+}
